@@ -6,7 +6,7 @@
 	"type": "commonjs",
 	"scripts": {
 		"dev": "vite",
-		"build": "rm -rf release && eslint . && tsc && vite build && electron-forge make"
+		"build": "eslint . && tsc && vite build && electron-forge make"
 	},
 	"devDependencies": {
 		"@electron-forge/cli": "^6.0.4",
