@@ -5,7 +5,6 @@
 		"EditorConfig.EditorConfig",
 		"DavidAnson.vscode-markdownlint",
 		"stylelint.vscode-stylelint",
-		"HTMLHint.vscode-htmlhint",
 		"redhat.vscode-yaml"
 	]
 }
