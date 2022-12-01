@@ -5,7 +5,7 @@ module.exports = {
 		ignore: fs
 			.readdirSync(__dirname)
 			.filter(name => name !== "build" && name !== "package.json")
-			.map(file => new RegExp(`^(?!.*build\\/).*\\/${file}$`))
+			.map(file => new RegExp(`^(?!.*build\\/).*\\/${file.replace(".", "\\.")}$`))
 	},
 	makers: [
 		{
