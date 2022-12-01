@@ -1,5 +1,47 @@
 # bioinformatyka
 
+## Praca w wersji lokalnej
+
+1. Zainstaluj node.js w wersji LTS (<https://nodejs.org/>)
+2. Zainstaluj git (<https://git-scm.com/>)
+3. W GitHubie stwórz swój branch np. `feat-ui` (feature branch zaczynajmy od `feat-`)
+4. Sklonuj swój branch z repozytorium
+
+        git clone -b feat-ui https://github.com/robie-tosty/bioinformatyka.git
+
+5. Otwórz folder w VS Code
+6. Zainstaluj rekomendowane rozszerzenia, dzięki którym każdy będzie miał taki sam styl kodu
+          ![image](https://tattoocoder.com/content/images/size/w2000/2019/08/Screen-Shot-2019-08-14-at-2.53.11-PM-1.png)
+          <!-- markdownlint-disable MD033 -->
+          <br>Jeśli takie okno się nie pojawi, to wejdź w plik `.vscode/extensions.json` i skopiuj po kolei nazwy rozszerzeń do wyszukiwarki rozszerzeń w VS Code i je zainstaluj
+
+7. W ustawieniach VS Code ustaw `Editor: Default Formatter` na `Prettier - Code formatter` oraz włącz opcję `Editor: Format On Save`
+
+8. Otwórz wbudowany w edytor terminal i aktywuj `yarn`
+
+        corepack enable
+        corepack prepare yarn@stable --activate
+
+9. Zainstaluj biblioteki
+
+        yarn install
+
+10. Uruchom aplikację w trybie deweloperskim (automatyczne odświeżanie po zmianie kodu)
+
+        yarn dev
+
+11. Jeśli chcesz zbudować aplikację do wersji dla zwykłego użytkownika
+
+        yarn build
+
+12. Po dodaniu i przetestowaniu zmian dodaj commit (nazwy commitów po angielsku, zaczynają się zgodnie z [tą tabelką](#typy-commitów), np. `feat: completed ui`)
+
+            git add .
+            git commit -m "Opis zmian"
+            git push
+
+13. Po zakończeniu pracy na branchu zrób pull requesta do brancha `development`
+
 ## Schemat robienia branchów
 
 ![image](https://user-images.githubusercontent.com/106035813/204865207-9b983e1d-a4c0-4c5e-b03a-c61e71794543.png)

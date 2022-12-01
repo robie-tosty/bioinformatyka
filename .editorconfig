@@ -9,3 +9,6 @@ trim_trailing_whitespace = true
 
 [*.{json,yml}]
 charset = utf-8
+
+[*.md]
+indent_style = space

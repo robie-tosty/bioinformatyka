@@ -5,12 +5,12 @@ import path from "path";
 
 export default defineConfig({
 	plugins: [react(), electron({ include: ["electron"], outDir: "build" })],
+	build: {
+		outDir: "build"
+	},
 	resolve: {
 		alias: {
 			"@": path.join(__dirname, "src")
 		}
-	},
-	build: {
-		outDir: "build"
 	}
 });
