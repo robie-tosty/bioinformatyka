@@ -4,7 +4,7 @@
 
 1. Zainstaluj node.js w wersji LTS (<https://nodejs.org/>)
 2. Zainstaluj git (<https://git-scm.com/>)
-3. W GitHubie stwórz swój branch np. `feat-ui` (feature branch zaczynajmy od `feat-`)
+3. W GitHubie stwórz swój branch np. `feat-ui` (feature branch zaczynajmy od `feat-`), w okienku tworzenia brancha ustaw `Branch source` na `development`
 4. Sklonuj swój branch z repozytorium
 
         git clone -b feat-ui https://github.com/robie-tosty/bioinformatyka.git
