@@ -17,5 +17,13 @@ jobs:
         uses: github/super-linter/slim@v4.9.7
         env:
           VALIDATE_ALL_CODEBASE: false
+          LINTER_RULES_PATH: /
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JAVASCRIPT_DEFAULT_STYLE: prettier
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.json
+          TYPESCRIPT_DEFAULT_STYLE: prettier
+          TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.json
+          VALIDATE_JAVASCRIPT_STANDARD: false
+          VALIDATE_TYPESCRIPT_STANDARD: false
+          VALIDATE_NATURAL_LANGUAGE: false

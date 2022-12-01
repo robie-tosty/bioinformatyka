@@ -3,11 +3,20 @@
 		"browser": true,
 		"es2021": true
 	},
-	"ignorePatterns": ["node_modules/", "build/", "release/", "forge.config.js"],
+	"ignorePatterns": [
+		"node_modules/",
+		"build/",
+		"out/",
+		"forge.config.js",
+		"!.*",
+		"/node_modules/.*"
+	],
+	"plugins": ["react", "@typescript-eslint", "json"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
-		"plugin:@typescript-eslint/recommended"
+		"plugin:@typescript-eslint/recommended",
+		"plugin:json/recommended"
 	],
 	"overrides": [],
 	"parser": "@typescript-eslint/parser",
@@ -18,7 +27,6 @@
 			"jsx": true
 		}
 	},
-	"plugins": ["react", "@typescript-eslint"],
 	"rules": {
 		"react/react-in-jsx-scope": "off"
 	},
