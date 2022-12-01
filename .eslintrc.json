@@ -3,7 +3,7 @@
 		"browser": true,
 		"es2021": true
 	},
-	"ignorePatterns": ["node_modules/"],
+	"ignorePatterns": ["node_modules/", "build/", "release/"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",

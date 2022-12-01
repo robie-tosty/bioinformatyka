@@ -1,4 +1,5 @@
 import { app, session, BrowserWindow } from "electron";
+import path from "path";
 
 app.whenReady().then(() => {
 	// Set Content Security Policy
@@ -20,6 +21,6 @@ app.whenReady().then(() => {
 		window.loadURL(process.env.VITE_DEV_SERVER_URL);
 	} else {
 		// Production build
-		window.loadFile("index.html");
+		window.loadFile(path.join(__dirname, "index.html"));
 	}
 });
