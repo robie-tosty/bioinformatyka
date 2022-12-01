@@ -19,6 +19,7 @@ app.whenReady().then(() => {
 	if (process.env.VITE_DEV_SERVER_URL) {
 		// Development build
 		window.loadURL(process.env.VITE_DEV_SERVER_URL);
+		window.webContents.openDevTools({ mode: "undocked", activate: false });
 	} else {
 		// Production build
 		window.loadFile(path.join(__dirname, "index.html"));
