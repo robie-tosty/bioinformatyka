@@ -1,0 +1,7 @@
+{
+	"cSpell.words": ["asar", "Borales", "branchów", "commitów"],
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.validate": ["css", "scss", "sass"]
+}

@@ -1,0 +1,38 @@
+{
+	"name": "bioinformatyka",
+	"packageManager": "yarn@3.3.0",
+	"version": "0.1.0",
+	"main": "build/main.js",
+	"type": "commonjs",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build && electron-forge make"
+	},
+	"devDependencies": {
+		"@electron-forge/cli": "^6.0.4",
+		"@electron-forge/maker-zip": "^6.0.4",
+		"@types/node": "^18.11.10",
+		"@types/react": "^18.0.25",
+		"@types/react-dom": "^18.0.9",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"@vitejs/plugin-react": "^2.2.0",
+		"electron": "^22.0.0",
+		"eslint": "^8.28.0",
+		"eslint-plugin-json": "^3.1.0",
+		"eslint-plugin-react": "^7.31.11",
+		"sass": "^1.56.1",
+		"stylelint": "^14.15.0",
+		"stylelint-config-prettier-scss": "^0.0.1",
+		"stylelint-config-recommended-scss": "^8.0.0",
+		"stylelint-scss": "^4.3.0",
+		"typescript": "^4.9.3",
+		"vite": "^3.2.4",
+		"vite-electron-plugin": "^0.5.2"
+	},
+	"dependencies": {
+		"path": "^0.12.7",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}

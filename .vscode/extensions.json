@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"EditorConfig.EditorConfig",
+		"DavidAnson.vscode-markdownlint",
+		"stylelint.vscode-stylelint",
+		"redhat.vscode-yaml"
+	]
+}
