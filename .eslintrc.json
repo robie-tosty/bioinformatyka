@@ -3,7 +3,7 @@
 		"browser": true,
 		"es2021": true
 	},
-	"ignorePatterns": ["node_modules/", "build/", "release/"],
+	"ignorePatterns": ["node_modules/", "build/", "release/", "forge.config.js"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
