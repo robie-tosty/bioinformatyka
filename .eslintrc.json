@@ -3,9 +3,7 @@
 		"browser": true,
 		"es2021": true
 	},
-	"ignorePatterns": [
-		"node_modules/"
-	],
+	"ignorePatterns": ["node_modules/"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
@@ -17,9 +15,6 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": [
-		"react",
-		"@typescript-eslint"
-	],
+	"plugins": ["react", "@typescript-eslint"],
 	"rules": {}
 }
