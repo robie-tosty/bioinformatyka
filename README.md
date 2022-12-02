@@ -12,35 +12,32 @@
 5. Otwórz folder w VS Code
 6. Zainstaluj rekomendowane rozszerzenia, dzięki którym każdy będzie miał taki sam styl kodu
         ![image](https://tattoocoder.com/content/images/size/w2000/2019/08/Screen-Shot-2019-08-14-at-2.53.11-PM-1.png)
-        <!-- markdownlint-disable MD033 -->
         <br>Jeśli takie okno się nie pojawi, to wejdź w zakładkę `Extensions`, wpisz `@recommended` w wyszukiwarce i zainstaluj
 
-7. W ustawieniach VS Code ustaw `Editor: Default Formatter` na `Prettier - Code formatter` oraz włącz opcję `Editor: Format On Save`
-
-8. Otwórz wbudowany w edytor terminal i aktywuj `yarn`
+7. Otwórz wbudowany w edytor terminal i aktywuj `yarn`
 
         corepack enable
         corepack prepare yarn@stable --activate
 
-9. Zainstaluj biblioteki
+8. Zainstaluj biblioteki
 
         yarn install
 
-10. Uruchom aplikację w trybie deweloperskim (automatyczne odświeżanie po zmianie kodu)
+9. Uruchom aplikację w trybie deweloperskim (automatyczne odświeżanie po zmianie kodu)
 
         yarn dev
 
-11. Jeśli chcesz zbudować aplikację do wersji dla zwykłego użytkownika
+10. Jeśli chcesz zbudować aplikację do wersji dla zwykłego użytkownika
 
         yarn build
 
-12. Po dodaniu i przetestowaniu zmian dodaj commit (nazwy commitów po angielsku, zaczynają się zgodnie z [tą tabelką](#typy-commitów), np. `feat: completed ui`)
+11. Po dodaniu i przetestowaniu zmian dodaj commit (nazwy commitów po angielsku, zaczynają się zgodnie z [tą tabelką](#typy-commitów), np. `feat: completed ui`)
 
         git add .
         git commit -m "Opis zmian"
         git push
 
-13. Po zakończeniu pracy na branchu zrób pull requesta do brancha `development`
+12. Po zakończeniu pracy na branchu zrób pull requesta do brancha `development`
 
 ## Schemat robienia branchów
 
