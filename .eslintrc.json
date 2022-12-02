@@ -15,6 +15,7 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
+		"plugin:react/jsx-runtime",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:json/recommended"
 	],
@@ -27,9 +28,7 @@
 			"jsx": true
 		}
 	},
-	"rules": {
-		"react/react-in-jsx-scope": "off"
-	},
+	"rules": {},
 	"settings": {
 		"react": {
 			"version": "detect"
