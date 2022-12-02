@@ -38,3 +38,4 @@ jobs:
           VALIDATE_NATURAL_LANGUAGE: false
           VALIDATE_YAML: false
           VALIDATE_HTML: false
+          VALIDATE_GITLEAKS: false
