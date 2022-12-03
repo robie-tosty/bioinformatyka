@@ -1,16 +1,10 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true
+		"es2021": true,
+		"node": true
 	},
-	"ignorePatterns": [
-		"node_modules/",
-		"build/",
-		"out/",
-		"forge.config.js",
-		"!.*",
-		"/node_modules/.*"
-	],
+	"ignorePatterns": ["node_modules/", "build/", "out/", "!.*", "/node_modules/.*"],
 	"plugins": ["react", "@typescript-eslint", "json"],
 	"extends": [
 		"eslint:recommended",

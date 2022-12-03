@@ -797,6 +797,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/node16@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@tsconfig/node16@npm:1.0.3"
+  checksum: 3a8b657dd047495b7ad23437d6afd20297ce90380ff0bdee93fc7d39a900dbd8d9e26e53ff6b465e7967ce2adf0b218782590ce9013285121e6a5928fbd6819f
+  languageName: node
+  linkType: hard
+
+"@tsconfig/vite-react@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@tsconfig/vite-react@npm:1.0.1"
+  checksum: 2d343c07e73b612887d86c0ec6db35fa228ec3e3c237007390de17ba9e69c0e3cd6a1837debd6928988f9abad4cf9da023825ee85c07b51ae2440b95372d945a
+  languageName: node
+  linkType: hard
+
 "@types/cacheable-request@npm:^6.0.1":
   version: 6.0.3
   resolution: "@types/cacheable-request@npm:6.0.3"
@@ -1334,6 +1348,8 @@ __metadata:
   dependencies:
     "@electron-forge/cli": ^6.0.4
     "@electron-forge/maker-zip": ^6.0.4
+    "@tsconfig/node16": ^1.0.3
+    "@tsconfig/vite-react": ^1.0.1
     "@types/node": ^18.11.10
     "@types/react": ^18.0.25
     "@types/react-dom": ^18.0.9

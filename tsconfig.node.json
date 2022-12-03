@@ -1,9 +1,7 @@
 {
 	"compilerOptions": {
-		"composite": true,
-		"module": "ESNext",
-		"moduleResolution": "Node",
-		"allowSyntheticDefaultImports": true
+		"composite": true
 	},
-	"include": ["vite.config.ts"]
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"include": ["./*.{*ts,*js}", "electron/**/*"]
 }
