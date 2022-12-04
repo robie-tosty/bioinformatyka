@@ -5,6 +5,7 @@
 		"EditorConfig.EditorConfig",
 		"DavidAnson.vscode-markdownlint",
 		"stylelint.vscode-stylelint",
-		"redhat.vscode-yaml"
+		"redhat.vscode-yaml",
+		"DigitalBrainstem.javascript-ejs-support"
 	]
 }
