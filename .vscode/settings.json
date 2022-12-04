@@ -5,5 +5,8 @@
 	"scss.validate": false,
 	"stylelint.validate": ["css", "scss", "sass"],
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"emmet.includeLanguages": {
+		"ejs": "html"
+	}
 }
