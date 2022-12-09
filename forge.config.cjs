@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+/** @type {import("@electron-forge/shared-types").ForgeConfig} */
 module.exports = {
 	packagerConfig: {
 		ignore: fs
